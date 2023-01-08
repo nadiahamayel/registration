@@ -1,0 +1,11 @@
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:padding="8dp" tools:context=".MainActivity">
+    <TextView style="@style/text_style"/>
+    <EditText android:id="@+id/edtName" style="@style/text_style" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <RadioGroup android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/rdGroup">
+        <RadioButton android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/rdMale" android:checked="false" android:text="Male" style="@style/text_style"/>
+        <RadioButton android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/rdFemale" android:checked="false" android:text="Female" style="@style/text_style"/>
+    </RadioGroup>
+    <Switch android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/swLastYear" android:checked="false" android:text="Last Year " style="@style/text_style"/>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/btnSave"  style="@style/text_style" android:onClick="btnSave_Click" android:layout_gravity="center"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/txtResult" style="@style/text_style"/>
+</androidx.appcompat.widget.LinearLayoutCompat>
